@@ -1,7 +1,7 @@
 {
   "name": "calculate-runway",
   "version": "0.1.0",
-  "description": "Calculate when your runway runs out",
+  "description": "Calculate the day when your runway runs out.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

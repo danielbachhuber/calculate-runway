@@ -1,0 +1,20 @@
+{
+  "name": "calculate-runway",
+  "version": "0.1.0",
+  "description": "Calculate when your runway runs out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "calculate-runway": "bin/calculate-runway"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "esm": "^3.2.25",
+    "moment": "^2.24.0",
+    "prompts": "^2.2.1"
+  }
+}

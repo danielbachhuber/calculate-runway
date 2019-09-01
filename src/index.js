@@ -43,5 +43,6 @@ export async function main() {
       dayIndex = 0;
     }
   }
+  console.log( 'You have ' + moment.duration(endDate.diff((moment()))).asMonths().toFixed(2) + ' months of runway remaining.' );
   console.log( 'Your last withdrawl of ' + amount + ' will be on ' + endDate.format('MMMM Do YYYY') + ' with ' + total + ' left in the bank.');
 }
